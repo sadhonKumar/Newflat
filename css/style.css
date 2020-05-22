@@ -1,0 +1,663 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	overflow-x: hidden;
+}
+body{
+	background-color: #F3F3F3;
+	color: #000;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: tahoma;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/************************************
+	*** Global CSS start here ***
+************************************/
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-md-12{
+	width: 100%;
+	float: left;
+}
+.col-md-6{
+	width: 50%;
+	float: left;
+}
+
+/**********************************
+	*** Global CSS end here ***
+**********************************/
+
+/*************************************************
+	*** header-section css code start here ***
+*************************************************/
+
+.header-section{
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+	background-color: #f3f3f3; 
+}
+.header-section .logo{
+	width: 100%;
+	float: left;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+.header-section .menu{
+	width: 100%;
+	float: left;
+	margin-left: 208px;
+}
+.menu ul{
+	width: 100%;
+	float: left;
+}
+.menu ul li{
+	list-style-type: none;
+	float: left;
+	margin-left: 20px;
+}
+.menu ul li a{
+	color: #818181;
+	font-size: 16px;
+	line-height: 30px;
+	transition: 1s;
+}
+.menu ul li a:hover{
+	color: #4CC1DD;
+}
+
+/***********************************************
+	*** header-section css code end here ***
+***********************************************/
+
+/********************************************
+	*** section-1 css code start here ***
+********************************************/
+
+.section-1{
+	width: 100%;
+	float: left;
+	background: #f3f3f3;
+}
+.section-1 .divider{
+	width: 100%;
+	height: 1px;
+	background-color: #aaaaaa;
+	margin: 0px auto;
+}
+
+/******************************************
+	*** section-1 css code end here ***
+******************************************/
+
+/*********************************************
+	*** section-2 css code start here ***
+*********************************************/
+
+.section-2{
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+	background-color: #f3f3f3;
+	text-align: center;
+}
+.section-2-inner{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+}
+.section-2-inner h1{
+	font-family: ;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 70px;
+	color: #616161;
+	text-transform: uppercase;
+}
+.section-2-inner h2{
+	font-family: ;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #4cc1dd;
+	text-transform: uppercase;
+}
+.section-2-inner p{
+	font-family: ;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #616161;
+	margin-top: 30px;
+	margin-bottom: 45px;
+}
+.section-2-inner a{
+	color: #abded1;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.section-2-inner .btn{
+	padding: 12px 75px;
+	border-radius: 50px;
+	background-color: #27b99a;
+}
+
+/******************************************
+	*** section-2 css code end here ***
+******************************************/
+
+/********************************************
+	*** section-3 css code start here ***
+********************************************/
+
+.section-3{
+	width: 100%;
+	float: left;
+	background: url(../images/Layer-14.png) center top no-repeat;
+	background-size: cover;;
+}
+.section-3-inner{
+	width: 100%;
+	height: 390px;
+	float: left;
+	margin: 0px auto;
+}
+
+/******************************************
+	*** section-3 css code end here ***
+******************************************/
+
+/********************************************
+	*** section-4 css code start here ***
+********************************************/
+
+.section-4{
+	width: 100%;
+	float: left;
+	background-color: #4cc1dd;
+}
+.section-4 .section-4-left-content{
+	width: 100%;
+	float: left;
+	padding-top: 60px;
+}
+.section-4 .section-4-left-content img{
+	width: 85%;
+	height: 645px;
+}
+.section-4 .section-4-right-content{
+	width: 100%;
+	float: left;
+	padding-top: 100px;
+	text-align: right;
+}
+.section-4 .section-4-right-content h2{
+	font-family: ;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 70px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.section-4 .section-4-right-content p{
+	font-family: ;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #ddf3f9;
+	margin-bottom: 30px;
+}
+.section-4-right-content .section-4-btn{
+	padding: 12px 38px;
+	border: 1px solid #ddf3f9;
+	border-radius: 50px;
+	background-color: transparent;
+	color: #fff;
+	font-family: ;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: 1s;
+}
+.section-4-right-content .section-4-btn:hover{
+	background-color: #ddf3f9;
+	color: #4cc1dd;
+
+}
+
+/******************************************
+	*** section-4 css code end here ***
+******************************************/
+
+.section-5{
+	width: 100%;
+	float: left;
+	background-color: #044c62;
+	padding: 60px 0px;
+	margin-top: -8px;
+}
+.section-5 .section-5-left-content{
+	width: 100%;
+	float: left;
+	text-align: left;
+}
+.section-5 .section-5-left-content h2{
+	font-family: ;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 70px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.section-5 .section-5-left-content p{
+	font-family: ;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #ddf3f9;
+	margin-bottom: 30px;
+}
+.section-5-left-content .section-5-btn{
+	padding: 12px 38px;
+	border: 1px solid #ddf3f9;
+	border-radius: 50px;
+	background-color: transparent;
+	color: #fff;
+	font-family: ;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: 1s;
+}
+.section-5-left-content .section-5-btn:hover{
+	background-color: #ddf3f9;
+	color: #4cc1dd;
+}
+.section-5 .section-5-right-content{
+	width: 100%;
+	float: left;
+}
+.section-5 .section-5-right-content img{
+	width: 90%;
+	height: 450px;
+	margin-left: 60px;
+}
+
+/********************************************
+	*** section-6 css code start here ***
+********************************************/
+
+.section-6{
+	width: 100%;
+	float: left;
+	background-color: #4cc1dd;
+	padding: 60px 0px;
+	margin-top: -8px;
+}
+.section-6 .section-6-left-content{
+	width: 100%;
+	float: left;
+}
+.section-6 .section-6-left-content img{
+	width: 85%;
+	height: 400px;
+}
+.section-6 .section-6-right-content{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.section-6 .section-6-right-content h2{
+	font-family: ;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 70px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.section-6 .section-6-right-content p{
+	font-family: ;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #ddf3f9;
+	margin-bottom: 30px;
+}
+.section-6-right-content .section-6-btn{
+	padding: 12px 38px;
+	border: 1px solid #ddf3f9;
+	border-radius: 50px;
+	background-color: transparent;
+	color: #fff;
+	font-family: ;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: 1s;
+}
+.section-6-right-content .section-6-btn:hover{
+	background-color: #ddf3f9;
+	color: #4cc1dd;
+}
+
+/******************************************
+	*** section-6 css code end here ***
+******************************************/
+
+.section-7{
+	width: 100%;
+	float: left;
+	background-color: #044c62;
+	padding: 60px 0px;
+	margin-top: -8px;
+}
+.section-7 .section-7-left-content{
+	width: 100%;
+	float: left;
+	text-align: left;
+	padding: 80px 0px;
+}
+.section-7 .section-7-left-content h2{
+	font-family: ;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 70px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.section-7 .section-7-left-content p{
+	font-family: ;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #ddf3f9;
+	margin-bottom: 30px;
+}
+.section-7-left-content .section-7-btn{
+	padding: 12px 38px;
+	border: 1px solid #ddf3f9;
+	border-radius: 50px;
+	background-color: transparent;
+	color: #fff;
+	font-family: ;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: 1s;
+}
+.section-7-left-content .section-7-btn:hover{
+	background-color: #ddf3f9;
+	color: #4cc1dd;
+}
+.section-7 .section-7-right-content{
+	width: 100%;
+	float: left;
+}
+.section-7 .section-7-right-content img{
+	width: 88%;
+	height: 450px;
+	margin-left: 60px;
+}
+.section-8{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+	background-color: #27b99a;
+}
+.section-8 h1{
+	float: left;
+	font-family: ;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 50px;
+	margin-left: 0px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.section-8 a{
+	float: right;
+	margin-right: 40px;
+	color: #27b99a;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.section-8 .section-8-btn{
+	padding: 10px 35px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	transition: 1s;
+}
+.section-8 .section-8-btn:hover{
+	background: transparent;
+	color: #fff;
+}
+
+.section-9{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+	background-color: #044c62;
+	text-align: center;
+}
+.section-9 h1{
+	font-family: ;
+	font-weight: 400;
+	line-height: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.section-9 .divider{
+	width: 3%;
+	height: 5px;
+	border-radius: 50px;
+	background-color: #fff;
+	margin: 0px auto;
+	margin-top: 5px;
+}
+.section-9 h2{
+	font-family: ;
+	font-size: 135px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 80px;
+}
+.section-9 p{
+	font-family: ;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+}
+.section-9 img{
+	width: 180px;
+	height: 180px;
+	margin: 40px 0px 10px 0px;
+}
+.section-9 h4{
+	font-family: ;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+}
+.footer-section{
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+	background-color: #cccccc;
+	text-align: center;
+}
+.footer-section .contact-content h2{
+	float: left;
+	color: #616161;
+	line-height: 30px;
+	margin-left: 380px;
+}
+.footer-section p{
+	margin-top: 10px;
+	color: #616161;
+}
+.footer-section .social-media{
+	float: left;
+	margin-left: 40px;
+}
+.social-media ul{
+
+}
+.social-media ul li{
+	list-style-type: none;
+	float: left;
+	margin-left: 10px;
+}
+.social-media ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+}
+.social-media ul li a i{
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	background: #717171;
+	line-height: 30px;
+	transition: 1s;
+}
+.social-media ul li a .fa-facebook:hover{
+	background: #4063AA;
+	color: #fff;
+}
+.social-media ul li a .fa-twitter:hover{
+	background: #E5E7E8;
+	color: #1D9AE6;
+}
+.social-media ul li a .fa-google-plus:hover{
+	background: #CB394C;
+	color: #fff;
+}
+.social-media ul li a .fa-linkedin:hover{
+	background: #0875AD;
+	color: #fff;
+}
+.footer-section .footer-menu{
+	width: 100%;
+	float: left;
+	margin-left: 300px;
+	margin-top: 20px;
+}
+.footer-menu ul{
+
+}
+.footer-menu ul li{
+	list-style-type: none;
+	float: left;
+	margin-left: 10px;
+	border-right: 1px solid #616161;
+}
+.footer-menu ul li:last-child{
+	border-right: 0px;
+}
+.footer-menu ul li a{
+	text-align: center;
+	margin-right: 10px;
+	font-family: ;
+	font-size: 16px;
+ 	color: #616161;
+	text-transform: uppercase;
+}
+
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.header-section .menu {
+	    width: 100%;
+	    float: left;
+	    margin-right: 0px;
+	} 
+	.header-section .col-md-6{
+		width: 39%;
+	}
+	  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+}
